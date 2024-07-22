@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f0f0f0">
+
+
+    <TextView
+        android:id="@+id/textViewWakeUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/wake_up"
+        android:textSize="24sp"
+        android:textColor="#77AAF6"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/imageViewBell"
+        android:layout_width="345dp"
+        android:layout_height="380dp"
+        android:layout_below="@id/textViewWakeUp"
+        android:layout_gravity="center"
+        android:layout_marginTop="91dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/bell_icon"
+        android:src="@drawable/ic_logo" />
+
+</RelativeLayout>

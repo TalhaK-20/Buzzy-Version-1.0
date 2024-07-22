@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Buzzy</string>
+    <string name="bell_icon">Bell Icon</string>
+    <string name="buzzy">Buzzy</string>
+    <string name="wake_up">Wake Up!</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="logo">Logo</string>
+</resources>
