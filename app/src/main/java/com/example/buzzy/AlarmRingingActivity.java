@@ -1,5 +1,6 @@
 package com.example.buzzy;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Vibrator;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 
 public class AlarmRingingActivity extends Activity {
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
